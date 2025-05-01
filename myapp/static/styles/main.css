@@ -1,5 +1,5 @@
 body{
-    background: #202020;
+    background: black;
     color: whitesmoke;
     margin: 0;
 }
@@ -34,7 +34,7 @@ body{
 .card{
     background: whitesmoke;
     padding: 10px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     color: black;
 }
 
@@ -43,3 +43,8 @@ body{
     padding: 10px;
     display: block;
 }
+
+.card h1 a{
+    text-decoration: none;
+    color:black;
+  }
