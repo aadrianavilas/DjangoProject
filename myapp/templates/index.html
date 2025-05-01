@@ -1,0 +1,10 @@
+
+{% extends 'layout/base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <h1>{{title}}</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque, enim quae atque et ea sint eveniet quasi optio totam velit praesentium voluptas sapiente nesciunt vel id laborum magnam repudiandae?</p>
+    <img src="{% static 'django.png' %}" alt="" width="200">
+{% endblock %}
